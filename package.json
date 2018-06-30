@@ -8,7 +8,10 @@
         "start": "babel-node index.js",
         "debug": "babel-node --inspect-brk --save-live-edit=true index.js"
     },
-    "keywords": ["url2png", "google storage"],
+    "keywords": [
+        "url2png",
+        "google storage"
+    ],
     "author": "Purusottam Mupunu",
     "license": "Apache-2.0",
     "dependencies": {
