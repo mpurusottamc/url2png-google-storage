@@ -6,7 +6,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "babel-node index.js",
-        "debug": "babel-node --inspect-brk --save-live-edit=true index.js"
+        "debug": "babel-node --inspect-brk --save-live-edit=true index.js",
+        "debug-live": "nodemon index.js --exec babel-node --inspect --save-live-edit=true"
     },
     "keywords": [
         "url2png",
@@ -22,6 +23,7 @@
     },
     "devDependencies": {
         "babel-cli": "^6.26.0",
-        "babel-preset-env": "^1.7.0"
+        "babel-preset-env": "^1.7.0",
+        "nodemon": "^1.17.5"
     }
 }
