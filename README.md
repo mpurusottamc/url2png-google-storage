@@ -3,7 +3,7 @@ Generate Screenshot (url2png) and save in google storage
 
 
 Configuration File format (config/default.json)
-``
+`
 {
     "url2png": {
         "auth": {
@@ -26,4 +26,4 @@ Configuration File format (config/default.json)
         }
     }
 }
-``
+`
