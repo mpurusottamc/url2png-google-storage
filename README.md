@@ -3,7 +3,8 @@ Generate Screenshot (url2png) and save in google storage
 
 
 Configuration File format (config/default.json)
-```{
+``
+{
     "url2png": {
         "auth": {
             "apiKey": "<url2png api key>",
@@ -24,4 +25,5 @@ Configuration File format (config/default.json)
             "bucketName": "<google storage bucket name>"
         }
     }
-}```
+}
+``
