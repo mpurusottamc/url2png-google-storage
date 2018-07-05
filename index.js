@@ -13,7 +13,7 @@ function main() {
 
     const cloudStorage = new CloudStorage(config.storage.auth);
 
-    const url = url2png.generateScreenshot(url)
+    url2png.generateScreenshot(url)
         .then(result => {
             console.log(`url2png success: ${result}`);
 
